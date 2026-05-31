@@ -52,8 +52,7 @@ def _serialize_announcement(announcement: Dict[str, Any]) -> Dict[str, Any]:
         "id": announcement["_id"],
         "message": announcement["message"],
         "starts_on": announcement.get("starts_on"),
-        "expires_on": announcement["expires_on"],
-        "created_by": announcement.get("created_by")
+        "expires_on": announcement["expires_on"]
     }
 
 
